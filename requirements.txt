@@ -1,0 +1,30 @@
+# Vision Diary - Requirements for Render Deployment
+# Python 3.9+
+
+# Web Interface
+streamlit==1.29.0
+
+# Text-to-Speech
+gTTS==2.5.0
+
+# Video Processing
+moviepy==1.0.3
+
+# Web Automation - Headless mode for Render
+selenium==4.16.0
+
+# HTTP Requests
+requests==2.31.0
+urllib3==2.1.0
+
+# Additional dependencies
+numpy>=1.21.0
+pillow>=9.0.0
+imageio==2.33.1
+imageio-ffmpeg==0.4.9
+decorator>=4.4.2
+proglog>=0.1.10
+tqdm>=4.66.0
+
+# For headless browser support on Render
+webdriver-manager==4.0.1
